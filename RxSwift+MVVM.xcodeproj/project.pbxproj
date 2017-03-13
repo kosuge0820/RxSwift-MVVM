@@ -38,8 +38,8 @@
 		3811AC721E7635D000A0C3AD = {
 			isa = PBXGroup;
 			children = (
-				3811AC7D1E7635D000A0C3AD /* RxSwift+MVVM */,
 				3811AC7C1E7635D000A0C3AD /* Products */,
+				3811AC7D1E7635D000A0C3AD /* RxSwift+MVVM */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +65,7 @@
 			children = (
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		3811ACB71E76360600A0C3AD /* Models */ = {
@@ -72,6 +73,7 @@
 			children = (
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		3811ACB81E76360A00A0C3AD /* ViewModels */ = {
@@ -80,6 +82,7 @@
 				3811AC801E7635D000A0C3AD /* ViewController.swift */,
 			);
 			name = ViewModels;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		3811ACB91E76361100A0C3AD /* Controllers */ = {
@@ -87,6 +90,7 @@
 			children = (
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		3811ACBA1E76361700A0C3AD /* Sources */ = {
@@ -94,22 +98,24 @@
 			children = (
 				3811ACBC1E76362F00A0C3AD /* Config */,
 				3811ACB91E76361100A0C3AD /* Controllers */,
-				3811ACB81E76360A00A0C3AD /* ViewModels */,
 				3811ACB71E76360600A0C3AD /* Models */,
+				3811ACB81E76360A00A0C3AD /* ViewModels */,
 				3811ACB61E76360200A0C3AD /* Views */,
 			);
 			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		3811ACBB1E76361B00A0C3AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3811AC821E7635D000A0C3AD /* Main.storyboard */,
 				3811AC851E7635D000A0C3AD /* Assets.xcassets */,
-				3811AC871E7635D000A0C3AD /* LaunchScreen.storyboard */,
 				3811AC8A1E7635D000A0C3AD /* Info.plist */,
+				3811AC871E7635D000A0C3AD /* LaunchScreen.storyboard */,
+				3811AC821E7635D000A0C3AD /* Main.storyboard */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		3811ACBC1E76362F00A0C3AD /* Config */ = {
@@ -118,6 +124,7 @@
 				3811AC7E1E7635D000A0C3AD /* AppDelegate.swift */,
 			);
 			name = Config;
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +214,7 @@
 				3811AC831E7635D000A0C3AD /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		3811AC871E7635D000A0C3AD /* LaunchScreen.storyboard */ = {
@@ -215,6 +223,7 @@
 				3811AC881E7635D000A0C3AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WDBC6D89W7;
-				INFOPLIST_FILE = "RxSwift+MVVM/Info.plist";
+				INFOPLIST_FILE = "RxSwift+MVVM/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,7 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WDBC6D89W7;
-				INFOPLIST_FILE = "RxSwift+MVVM/Info.plist";
+				INFOPLIST_FILE = "RxSwift+MVVM/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
