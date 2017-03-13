@@ -12,26 +12,7 @@
 		3811AC841E7635D000A0C3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3811AC821E7635D000A0C3AD /* Main.storyboard */; };
 		3811AC861E7635D000A0C3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3811AC851E7635D000A0C3AD /* Assets.xcassets */; };
 		3811AC891E7635D000A0C3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3811AC871E7635D000A0C3AD /* LaunchScreen.storyboard */; };
-		3811AC941E7635D100A0C3AD /* RxSwift_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811AC931E7635D100A0C3AD /* RxSwift_MVVMTests.swift */; };
-		3811AC9F1E7635D100A0C3AD /* RxSwift_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811AC9E1E7635D100A0C3AD /* RxSwift_MVVMUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3811AC901E7635D100A0C3AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3811AC731E7635D000A0C3AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3811AC7A1E7635D000A0C3AD;
-			remoteInfo = "RxSwift+MVVM";
-		};
-		3811AC9B1E7635D100A0C3AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3811AC731E7635D000A0C3AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3811AC7A1E7635D000A0C3AD;
-			remoteInfo = "RxSwift+MVVM";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3811AC7B1E7635D000A0C3AD /* RxSwift+MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift+MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		3811AC851E7635D000A0C3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3811AC881E7635D000A0C3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3811AC8A1E7635D000A0C3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3811AC8F1E7635D000A0C3AD /* RxSwift+MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift+MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3811AC931E7635D100A0C3AD /* RxSwift_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_MVVMTests.swift; sourceTree = "<group>"; };
-		3811AC951E7635D100A0C3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3811AC9A1E7635D100A0C3AD /* RxSwift+MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift+MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3811AC9E1E7635D100A0C3AD /* RxSwift_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_MVVMUITests.swift; sourceTree = "<group>"; };
-		3811ACA01E7635D100A0C3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3811AC781E7635D000A0C3AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3811AC8C1E7635D000A0C3AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3811AC971E7635D100A0C3AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				3811AC7D1E7635D000A0C3AD /* RxSwift+MVVM */,
-				3811AC921E7635D100A0C3AD /* RxSwift+MVVMTests */,
-				3811AC9D1E7635D100A0C3AD /* RxSwift+MVVMUITests */,
 				3811AC7C1E7635D000A0C3AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				3811AC7B1E7635D000A0C3AD /* RxSwift+MVVM.app */,
-				3811AC8F1E7635D000A0C3AD /* RxSwift+MVVMTests.xctest */,
-				3811AC9A1E7635D100A0C3AD /* RxSwift+MVVMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +54,70 @@
 		3811AC7D1E7635D000A0C3AD /* RxSwift+MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				3811AC7E1E7635D000A0C3AD /* AppDelegate.swift */,
+				3811ACBB1E76361B00A0C3AD /* Resources */,
+				3811ACBA1E76361700A0C3AD /* Sources */,
+			);
+			path = "RxSwift+MVVM";
+			sourceTree = "<group>";
+		};
+		3811ACB61E76360200A0C3AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3811ACB71E76360600A0C3AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3811ACB81E76360A00A0C3AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
 				3811AC801E7635D000A0C3AD /* ViewController.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		3811ACB91E76361100A0C3AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3811ACBA1E76361700A0C3AD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3811ACBC1E76362F00A0C3AD /* Config */,
+				3811ACB91E76361100A0C3AD /* Controllers */,
+				3811ACB81E76360A00A0C3AD /* ViewModels */,
+				3811ACB71E76360600A0C3AD /* Models */,
+				3811ACB61E76360200A0C3AD /* Views */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3811ACBB1E76361B00A0C3AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3811AC821E7635D000A0C3AD /* Main.storyboard */,
 				3811AC851E7635D000A0C3AD /* Assets.xcassets */,
 				3811AC871E7635D000A0C3AD /* LaunchScreen.storyboard */,
 				3811AC8A1E7635D000A0C3AD /* Info.plist */,
 			);
-			path = "RxSwift+MVVM";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		3811AC921E7635D100A0C3AD /* RxSwift+MVVMTests */ = {
+		3811ACBC1E76362F00A0C3AD /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				3811AC931E7635D100A0C3AD /* RxSwift_MVVMTests.swift */,
-				3811AC951E7635D100A0C3AD /* Info.plist */,
+				3811AC7E1E7635D000A0C3AD /* AppDelegate.swift */,
 			);
-			path = "RxSwift+MVVMTests";
-			sourceTree = "<group>";
-		};
-		3811AC9D1E7635D100A0C3AD /* RxSwift+MVVMUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3811AC9E1E7635D100A0C3AD /* RxSwift_MVVMUITests.swift */,
-				3811ACA01E7635D100A0C3AD /* Info.plist */,
-			);
-			path = "RxSwift+MVVMUITests";
+			name = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +140,6 @@
 			productReference = 3811AC7B1E7635D000A0C3AD /* RxSwift+MVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3811AC8E1E7635D000A0C3AD /* RxSwift+MVVMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3811ACA61E7635D100A0C3AD /* Build configuration list for PBXNativeTarget "RxSwift+MVVMTests" */;
-			buildPhases = (
-				3811AC8B1E7635D000A0C3AD /* Sources */,
-				3811AC8C1E7635D000A0C3AD /* Frameworks */,
-				3811AC8D1E7635D000A0C3AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3811AC911E7635D100A0C3AD /* PBXTargetDependency */,
-			);
-			name = "RxSwift+MVVMTests";
-			productName = "RxSwift+MVVMTests";
-			productReference = 3811AC8F1E7635D000A0C3AD /* RxSwift+MVVMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3811AC991E7635D100A0C3AD /* RxSwift+MVVMUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3811ACA91E7635D100A0C3AD /* Build configuration list for PBXNativeTarget "RxSwift+MVVMUITests" */;
-			buildPhases = (
-				3811AC961E7635D100A0C3AD /* Sources */,
-				3811AC971E7635D100A0C3AD /* Frameworks */,
-				3811AC981E7635D100A0C3AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3811AC9C1E7635D100A0C3AD /* PBXTargetDependency */,
-			);
-			name = "RxSwift+MVVMUITests";
-			productName = "RxSwift+MVVMUITests";
-			productReference = 3811AC9A1E7635D100A0C3AD /* RxSwift+MVVMUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,18 +154,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = WDBC6D89W7;
 						ProvisioningStyle = Automatic;
-					};
-					3811AC8E1E7635D000A0C3AD = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WDBC6D89W7;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3811AC7A1E7635D000A0C3AD;
-					};
-					3811AC991E7635D100A0C3AD = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WDBC6D89W7;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3811AC7A1E7635D000A0C3AD;
 					};
 				};
 			};
@@ -224,8 +171,6 @@
 			projectRoot = "";
 			targets = (
 				3811AC7A1E7635D000A0C3AD /* RxSwift+MVVM */,
-				3811AC8E1E7635D000A0C3AD /* RxSwift+MVVMTests */,
-				3811AC991E7635D100A0C3AD /* RxSwift+MVVMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +186,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3811AC8D1E7635D000A0C3AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3811AC981E7635D100A0C3AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,36 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3811AC8B1E7635D000A0C3AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3811AC941E7635D100A0C3AD /* RxSwift_MVVMTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3811AC961E7635D100A0C3AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3811AC9F1E7635D100A0C3AD /* RxSwift_MVVMUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3811AC911E7635D100A0C3AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3811AC7A1E7635D000A0C3AD /* RxSwift+MVVM */;
-			targetProxy = 3811AC901E7635D100A0C3AD /* PBXContainerItemProxy */;
-		};
-		3811AC9C1E7635D100A0C3AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3811AC7A1E7635D000A0C3AD /* RxSwift+MVVM */;
-			targetProxy = 3811AC9B1E7635D100A0C3AD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3811AC821E7635D000A0C3AD /* Main.storyboard */ = {
@@ -437,64 +339,6 @@
 			};
 			name = Release;
 		};
-		3811ACA71E7635D100A0C3AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = WDBC6D89W7;
-				INFOPLIST_FILE = "RxSwift+MVVMTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVMTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwift+MVVM.app/RxSwift+MVVM";
-			};
-			name = Debug;
-		};
-		3811ACA81E7635D100A0C3AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = WDBC6D89W7;
-				INFOPLIST_FILE = "RxSwift+MVVMTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVMTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwift+MVVM.app/RxSwift+MVVM";
-			};
-			name = Release;
-		};
-		3811ACAA1E7635D100A0C3AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = WDBC6D89W7;
-				INFOPLIST_FILE = "RxSwift+MVVMUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVMUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "RxSwift+MVVM";
-			};
-			name = Debug;
-		};
-		3811ACAB1E7635D100A0C3AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = WDBC6D89W7;
-				INFOPLIST_FILE = "RxSwift+MVVMUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVMUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "RxSwift+MVVM";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -512,22 +356,6 @@
 			buildConfigurations = (
 				3811ACA41E7635D100A0C3AD /* Debug */,
 				3811ACA51E7635D100A0C3AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		3811ACA61E7635D100A0C3AD /* Build configuration list for PBXNativeTarget "RxSwift+MVVMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3811ACA71E7635D100A0C3AD /* Debug */,
-				3811ACA81E7635D100A0C3AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		3811ACA91E7635D100A0C3AD /* Build configuration list for PBXNativeTarget "RxSwift+MVVMUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3811ACAA1E7635D100A0C3AD /* Debug */,
-				3811ACAB1E7635D100A0C3AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
