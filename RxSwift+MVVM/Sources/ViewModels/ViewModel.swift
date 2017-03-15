@@ -7,18 +7,14 @@
 //
 
 import UIKit
+import RxSwift
 
-class ViewModel: UITableViewCell {
+class ViewModel {
+    private let eventSubject = PublishSubject<Int>()
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var event: Observable<Int> { return eventSubject }
+    
+    func doSomething() {
+        eventSubject.onNext(1000)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

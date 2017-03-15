@@ -7,18 +7,18 @@
 //
 
 import UIKit
+import RxSwift
 
-class Presenter: UITableViewCell {
+class Presenter {
+    private let buttonHiddenSubject = Variable(false)
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var buttonHidden: Observable<Bool> { return buttonHiddenSubject.asObservable() }
+    
+    func start() {
+        buttonHiddenSubject.value = true
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func stop() {
+        buttonHiddenSubject.value = false
     }
-
 }

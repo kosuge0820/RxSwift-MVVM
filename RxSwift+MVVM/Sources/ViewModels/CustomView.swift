@@ -8,17 +8,21 @@
 
 import UIKit
 
-class CustomView: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+final class CustomView: UIView {
+    lazy var customButton: UIButton = {
+        let button = UIButton()
+        button.frame.size = CGSize(width: 100, height: 100)
+        button.center = self.center
+        button.backgroundColor = UIColor.yellow
+        return button
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        addSubview(customButton)
     }
     
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
