@@ -9,6 +9,4 @@
 import UIKit
 import RxSwift
 
-class Action {
-
-}
+class Action {}

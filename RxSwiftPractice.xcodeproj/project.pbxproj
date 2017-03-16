@@ -137,11 +137,11 @@
 		3811ACB91E76361100A0C3AD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				387693241E79A33200D10F28 /* FifthViewController.swift */,
 				387693251E79A33200D10F28 /* FirstViewController.swift */,
-				387693261E79A33200D10F28 /* FourthViewController.swift */,
 				387693271E79A33200D10F28 /* SecondViewController.swift */,
 				387693281E79A33200D10F28 /* ThirdViewController.swift */,
+				387693261E79A33200D10F28 /* FourthViewController.swift */,
+				387693241E79A33200D10F28 /* FifthViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

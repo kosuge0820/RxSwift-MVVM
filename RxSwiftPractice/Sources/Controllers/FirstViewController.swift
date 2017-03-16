@@ -34,14 +34,11 @@ class FirstViewController: UIViewController {
     
     //MARK: - Demo1
     private func demo1() {
-        _ = viewModel.event.subscribe(
+        viewModel.event.subscribe(
             onNext: { value in
                 print("2")
             }).disposed(by: disposeBag)
-        
-        print("1")
         viewModel.doSomething()
-        print("3")
     }
 
     //MARK: - Demo2

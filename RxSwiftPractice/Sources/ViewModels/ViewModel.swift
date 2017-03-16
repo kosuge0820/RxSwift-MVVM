@@ -15,6 +15,8 @@ class ViewModel {
     var event: Observable<Int> { return eventSubject }
     
     func doSomething() {
+        print("1")
         eventSubject.onNext(1000)
+        print("3")
     }
 }
