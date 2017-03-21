@@ -91,7 +91,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="0kl-bd-j7n"/>
                                 </constraints>
-                                <state key="normal" title="Do Something"/>
+                                <state key="normal" title="Sign Up"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -108,10 +108,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nkb-pU-O60"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="FVl-xS-VoA" id="egH-Zk-aJM"/>
+                        <outlet property="passwordValidationLabel" destination="QK2-Pe-tEl" id="AON-ph-gjM"/>
+                        <outlet property="signUpButton" destination="skh-Cu-5VM" id="IPB-Bv-bwY"/>
+                        <outlet property="usernameTextField" destination="Chn-li-WLO" id="s2S-bZ-Nmn"/>
+                        <outlet property="usernameValidationLabel" destination="9Rd-CX-P6W" id="swE-GO-Hx7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Gr-yk-Efk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1216.8" y="-209.14542728635683"/>
+            <point key="canvasLocation" x="1001" y="-209"/>
         </scene>
         <!--ヴァリデーション-->
         <scene sceneID="Kxd-Ve-qZx">
