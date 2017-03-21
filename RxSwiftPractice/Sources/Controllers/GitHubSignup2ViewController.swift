@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FifthViewController: UIViewController {
+class GitHubSignup2ViewController: UIViewController {
     
     override func loadView() {
         super.loadView()

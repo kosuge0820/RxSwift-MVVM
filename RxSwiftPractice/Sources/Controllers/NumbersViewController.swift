@@ -28,22 +28,12 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        demo1()
-        demo2()
-    }
-    
-    //MARK: - Demo1
-    private func demo1() {
-        viewModel.event.subscribe(
-            onNext: { value in
-                print("2")
-            }).disposed(by: disposeBag)
-        viewModel.doSomething()
+        buttonHiddenObservale()
     }
 
     //MARK: - Demo2
-    private func demo2() {
-        _ = presenter.buttonHidden
+    private func buttonHiddenObservale() {
+        presenter.buttonHidden
             .bindTo(customView.rx.isHidden)
             .disposed(by: disposeBag)
     }
