@@ -71,42 +71,42 @@
 		3816B9D41E766D6A009F2C10 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		3816B9D51E766D6A009F2C10 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		3816B9D61E766D6A009F2C10 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		3819E8B41E80F59A004BB245 /* Numbers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Numbers.storyboard; path = RxSwiftPractice/Resources/Numbers.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8B61E80F5A9004BB245 /* SimpleValidation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleValidation.storyboard; path = RxSwiftPractice/Resources/SimpleValidation.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Geolocation.storyboard; path = RxSwiftPractice/Resources/Geolocation.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GitHubSignup1.storyboard; path = RxSwiftPractice/Resources/GitHubSignup1.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GitHubSignup2.storyboard; path = RxSwiftPractice/Resources/GitHubSignup2.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8BE1E80F5DD004BB245 /* SimpleTableViewExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleTableViewExample.storyboard; path = RxSwiftPractice/Resources/SimpleTableViewExample.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8C01E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleTableViewExampleSectioned.storyboard; path = RxSwiftPractice/Resources/SimpleTableViewExampleSectioned.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8C21E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TableViewWithEditingCommands.storyboard; path = RxSwiftPractice/Resources/TableViewWithEditingCommands.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8C41E80F603004BB245 /* PartialUpdates.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PartialUpdates.storyboard; path = RxSwiftPractice/Resources/PartialUpdates.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8C61E80F60B004BB245 /* WikipediaSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WikipediaSearch.storyboard; path = RxSwiftPractice/Resources/WikipediaSearch.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8C81E80F614004BB245 /* APIWrappers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APIWrappers.storyboard; path = RxSwiftPractice/Resources/APIWrappers.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8CA1E80F61E004BB245 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calculator.storyboard; path = RxSwiftPractice/Resources/Calculator.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8CC1E80F629004BB245 /* GitHubSearchRepositories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GitHubSearchRepositories.storyboard; path = RxSwiftPractice/Resources/GitHubSearchRepositories.storyboard; sourceTree = SOURCE_ROOT; };
-		3819E8D81E80F84B004BB245 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleTableViewExampleViewController.swift; path = RxSwiftPractice/Sources/Controllers/SimpleTableViewExampleViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8DF1E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleSectionedViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8E11E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewWithEditingCommandsViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8E31E80FD33004BB245 /* PartialUpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialUpdatesViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8E51E80FD3A004BB245 /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrappersViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = SOURCE_ROOT; };
-		3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSearchRepositoriesViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitHubSignup2ViewController.swift; path = RxSwiftPractice/Sources/Controllers/GitHubSignup2ViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693251E79A33200D10F28 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumbersViewController.swift; path = RxSwiftPractice/Sources/Controllers/NumbersViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitHubSignup1ViewController.swift; path = RxSwiftPractice/Sources/Controllers/GitHubSignup1ViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693271E79A33200D10F28 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleValidationViewController.swift; path = RxSwiftPractice/Sources/Controllers/SimpleValidationViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693281E79A33200D10F28 /* GeolocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeolocationViewController.swift; path = RxSwiftPractice/Sources/Controllers/GeolocationViewController.swift; sourceTree = SOURCE_ROOT; };
-		3876932E1E79A34B00D10F28 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Action.swift; path = RxSwiftPractice/Sources/ViewModels/Action.swift; sourceTree = SOURCE_ROOT; };
-		3876932F1E79A34B00D10F28 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = RxSwiftPractice/Sources/ViewModels/CustomView.swift; sourceTree = SOURCE_ROOT; };
-		387693301E79A34B00D10F28 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomView.xib; path = RxSwiftPractice/Sources/ViewModels/CustomView.xib; sourceTree = SOURCE_ROOT; };
-		387693311E79A34B00D10F28 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = RxSwiftPractice/Sources/ViewModels/Presenter.swift; sourceTree = SOURCE_ROOT; };
-		387693321E79A34B00D10F28 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = RxSwiftPractice/Sources/ViewModels/ViewModel.swift; sourceTree = SOURCE_ROOT; };
-		387693381E79A35900D10F28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RxSwiftPractice/Sources/Config/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		3876933B1E79A37700D10F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RxSwiftPractice/Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		3876933D1E79A37700D10F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RxSwiftPractice/Resources/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		387693401E79A38600D10F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RxSwiftPractice/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		387693411E79A38600D10F28 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RxSwiftPractice/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		3819E8B41E80F59A004BB245 /* Numbers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Numbers.storyboard; sourceTree = "<group>"; };
+		3819E8B61E80F5A9004BB245 /* SimpleValidation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleValidation.storyboard; sourceTree = "<group>"; };
+		3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Geolocation.storyboard; sourceTree = "<group>"; };
+		3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GitHubSignup1.storyboard; sourceTree = "<group>"; };
+		3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GitHubSignup2.storyboard; sourceTree = "<group>"; };
+		3819E8BE1E80F5DD004BB245 /* SimpleTableViewExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleTableViewExample.storyboard; sourceTree = "<group>"; };
+		3819E8C01E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleTableViewExampleSectioned.storyboard; sourceTree = "<group>"; };
+		3819E8C21E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TableViewWithEditingCommands.storyboard; sourceTree = "<group>"; };
+		3819E8C41E80F603004BB245 /* PartialUpdates.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PartialUpdates.storyboard; sourceTree = "<group>"; };
+		3819E8C61E80F60B004BB245 /* WikipediaSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WikipediaSearch.storyboard; sourceTree = "<group>"; };
+		3819E8C81E80F614004BB245 /* APIWrappers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APIWrappers.storyboard; sourceTree = "<group>"; };
+		3819E8CA1E80F61E004BB245 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		3819E8CC1E80F629004BB245 /* GitHubSearchRepositories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GitHubSearchRepositories.storyboard; sourceTree = "<group>"; };
+		3819E8D81E80F84B004BB245 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
+		3819E8DF1E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleSectionedViewController.swift; sourceTree = "<group>"; };
+		3819E8E11E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewWithEditingCommandsViewController.swift; sourceTree = "<group>"; };
+		3819E8E31E80FD33004BB245 /* PartialUpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialUpdatesViewController.swift; sourceTree = "<group>"; };
+		3819E8E51E80FD3A004BB245 /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = "<group>"; };
+		3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrappersViewController.swift; sourceTree = "<group>"; };
+		3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSearchRepositoriesViewController.swift; sourceTree = "<group>"; };
+		387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup2ViewController.swift; sourceTree = "<group>"; };
+		387693251E79A33200D10F28 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup1ViewController.swift; sourceTree = "<group>"; };
+		387693271E79A33200D10F28 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		387693281E79A33200D10F28 /* GeolocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeolocationViewController.swift; sourceTree = "<group>"; };
+		3876932E1E79A34B00D10F28 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		3876932F1E79A34B00D10F28 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		387693301E79A34B00D10F28 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		387693311E79A34B00D10F28 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		387693321E79A34B00D10F28 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		387693381E79A35900D10F28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3876933B1E79A37700D10F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3876933D1E79A37700D10F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387693401E79A38600D10F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387693411E79A38600D10F28 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +125,10 @@
 		3811AC721E7635D000A0C3AD = {
 			isa = PBXGroup;
 			children = (
+				3816B9D11E766B36009F2C10 /* MyPlayground.playground */,
+				3811AC7D1E7635D000A0C3AD /* RxSwiftPractice */,
 				3816B9D21E766D6A009F2C10 /* Frameworks */,
 				3811AC7C1E7635D000A0C3AD /* Products */,
-				3811AC7D1E7635D000A0C3AD /* RxSwiftPractice */,
-				3816B9D11E766B36009F2C10 /* MyPlayground.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,11 +143,10 @@
 		3811AC7D1E7635D000A0C3AD /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
-				3811ACBB1E76361B00A0C3AD /* Resources */,
 				3811ACBA1E76361700A0C3AD /* Sources */,
+				3811ACBB1E76361B00A0C3AD /* Resources */,
 			);
-			name = RxSwiftPractice;
-			path = "RxSwift+MVVM";
+			path = RxSwiftPractice;
 			sourceTree = "<group>";
 		};
 		3811ACB81E76360A00A0C3AD /* ViewModels */ = {
@@ -165,8 +164,8 @@
 		3811ACBA1E76361700A0C3AD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3819E8CE1E80F73E004BB245 /* Examples */,
 				3811ACBC1E76362F00A0C3AD /* Config */,
+				3819E8CE1E80F73E004BB245 /* Examples */,
 				3811ACB81E76360A00A0C3AD /* ViewModels */,
 			);
 			path = Sources;
@@ -215,11 +214,11 @@
 				3819E8D11E80F755004BB245 /* TableViewWithEditingCommands */,
 				3819E8D01E80F755004BB245 /* TableViewPartialUpdates */,
 				3819E8DA1E80F964004BB245 /* WikipediaSearch */,
-				3819E8DE1E80FC09004BB245 /* APIWrappers */,
 				3819E8DD1E80FC08004BB245 /* Calculator */,
+				3819E8DE1E80FC09004BB245 /* APIWrappers */,
 				3819E8DC1E80FC07004BB245 /* GitHubSerchRespositories */,
 			);
-			name = Examples;
+			path = Examples;
 			sourceTree = "<group>";
 		};
 		3819E8CF1E80F74C004BB245 /* Numbers */ = {
@@ -228,7 +227,7 @@
 				3819E8B41E80F59A004BB245 /* Numbers.storyboard */,
 				387693251E79A33200D10F28 /* NumbersViewController.swift */,
 			);
-			name = Numbers;
+			path = Numbers;
 			sourceTree = "<group>";
 		};
 		3819E8D01E80F755004BB245 /* TableViewPartialUpdates */ = {
@@ -237,7 +236,7 @@
 				3819E8C41E80F603004BB245 /* PartialUpdates.storyboard */,
 				3819E8E31E80FD33004BB245 /* PartialUpdatesViewController.swift */,
 			);
-			name = TableViewPartialUpdates;
+			path = TableViewPartialUpdates;
 			sourceTree = "<group>";
 		};
 		3819E8D11E80F755004BB245 /* TableViewWithEditingCommands */ = {
@@ -246,7 +245,7 @@
 				3819E8C21E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard */,
 				3819E8E11E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift */,
 			);
-			name = TableViewWithEditingCommands;
+			path = TableViewWithEditingCommands;
 			sourceTree = "<group>";
 		};
 		3819E8D21E80F759004BB245 /* SimpleTableViewExampleSectioned */ = {
@@ -255,7 +254,7 @@
 				3819E8C01E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard */,
 				3819E8DF1E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift */,
 			);
-			name = SimpleTableViewExampleSectioned;
+			path = SimpleTableViewExampleSectioned;
 			sourceTree = "<group>";
 		};
 		3819E8D31E80F75A004BB245 /* SimpleTableViewExample */ = {
@@ -264,7 +263,7 @@
 				3819E8BE1E80F5DD004BB245 /* SimpleTableViewExample.storyboard */,
 				3819E8D81E80F84B004BB245 /* SimpleTableViewExampleViewController.swift */,
 			);
-			name = SimpleTableViewExample;
+			path = SimpleTableViewExample;
 			sourceTree = "<group>";
 		};
 		3819E8D41E80F75D004BB245 /* GitHubSignup2 */ = {
@@ -273,7 +272,7 @@
 				3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */,
 				387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */,
 			);
-			name = GitHubSignup2;
+			path = GitHubSignup2;
 			sourceTree = "<group>";
 		};
 		3819E8D51E80F75E004BB245 /* GitHubSignup1 */ = {
@@ -282,7 +281,7 @@
 				3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */,
 				387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */,
 			);
-			name = GitHubSignup1;
+			path = GitHubSignup1;
 			sourceTree = "<group>";
 		};
 		3819E8D61E80F75F004BB245 /* Geolocation */ = {
@@ -291,7 +290,7 @@
 				3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */,
 				387693281E79A33200D10F28 /* GeolocationViewController.swift */,
 			);
-			name = Geolocation;
+			path = Geolocation;
 			sourceTree = "<group>";
 		};
 		3819E8D71E80F760004BB245 /* SimpleValidation */ = {
@@ -300,7 +299,7 @@
 				3819E8B61E80F5A9004BB245 /* SimpleValidation.storyboard */,
 				387693271E79A33200D10F28 /* SimpleValidationViewController.swift */,
 			);
-			name = SimpleValidation;
+			path = SimpleValidation;
 			sourceTree = "<group>";
 		};
 		3819E8DA1E80F964004BB245 /* WikipediaSearch */ = {
@@ -309,7 +308,7 @@
 				3819E8C61E80F60B004BB245 /* WikipediaSearch.storyboard */,
 				3819E8E51E80FD3A004BB245 /* WikipediaSearchViewController.swift */,
 			);
-			name = WikipediaSearch;
+			path = WikipediaSearch;
 			sourceTree = "<group>";
 		};
 		3819E8DC1E80FC07004BB245 /* GitHubSerchRespositories */ = {
@@ -318,7 +317,7 @@
 				3819E8CC1E80F629004BB245 /* GitHubSearchRepositories.storyboard */,
 				3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */,
 			);
-			name = GitHubSerchRespositories;
+			path = GitHubSerchRespositories;
 			sourceTree = "<group>";
 		};
 		3819E8DD1E80FC08004BB245 /* Calculator */ = {
@@ -327,7 +326,7 @@
 				3819E8CA1E80F61E004BB245 /* Calculator.storyboard */,
 				3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */,
 			);
-			name = Calculator;
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 		3819E8DE1E80FC09004BB245 /* APIWrappers */ = {
@@ -336,7 +335,7 @@
 				3819E8C81E80F614004BB245 /* APIWrappers.storyboard */,
 				3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */,
 			);
-			name = APIWrappers;
+			path = APIWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,6 +476,7 @@
 				3876933B1E79A37700D10F28 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		3876933C1E79A37700D10F28 /* Main.storyboard */ = {
@@ -485,6 +485,7 @@
 				3876933D1E79A37700D10F28 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
