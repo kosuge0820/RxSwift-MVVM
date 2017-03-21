@@ -25,10 +25,10 @@ class NumbersViewController: UIViewController {
     
     private func combineLatest() {
         Observable.combineLatest(textField1.rx.text.orEmpty, textField2.rx.text.orEmpty, textField3.rx.text.orEmpty) { value1, value2, value3 -> Int in
-                return (Int(value1) ?? 0) + (Int(value2) ?? 0) + (Int(value3) ?? 0)
-            }
-            .map { $0.description }
-            .bindTo { resultLabel.rx.text }
-            .disposed(by: disposeBag)
+            return (Int(value1) ?? 0) + (Int(value2) ?? 0) + (Int(value3) ?? 0)
+        }
+        .map { $0.description }
+        .bindTo(resultLabel.rx.text)
+        .disposed(by: disposeBag)
     }
 }
