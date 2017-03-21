@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  SimpleValidationViewController.swift
 //  RxSwiftPractice
 //
 //  Created by k-satoshi on 2017/03/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SimpleValidationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

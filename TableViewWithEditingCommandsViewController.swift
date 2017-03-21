@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewWithEditingCommandsViewController: UIViewController {
+class TableViewWithEditingCommandsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

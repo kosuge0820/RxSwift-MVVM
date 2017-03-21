@@ -1,5 +1,5 @@
 //
-//  FourthViewController.swift
+//  GitHubSignup1ViewController.swift
 //  RxSwiftPractice
 //
 //  Created by k-satoshi on 2017/03/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class GitHubSignup1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

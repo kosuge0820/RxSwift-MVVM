@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  GeolocationViewController.swift
 //  RxSwiftPractice
 //
 //  Created by k-satoshi on 2017/03/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class GeolocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

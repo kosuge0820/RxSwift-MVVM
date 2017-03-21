@@ -1,5 +1,5 @@
 //
-//  FifthViewController.swift
+//  GitHubSignup2ViewController.swift
 //  RxSwiftPractice
 //
 //  Created by k-satoshi on 2017/03/16.

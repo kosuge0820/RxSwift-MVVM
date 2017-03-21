@@ -20,6 +20,7 @@ final class CustomView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(customButton)
+        backgroundColor = UIColor.white
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -1,7 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sHW-Bs-KQa">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Search Wikipedia-->
+        <scene sceneID="SBV-0J-VN2">
+            <objects>
+                <viewController id="dF2-3r-ded" customClass="PartialUpdatesViewController" customModule="RxSwiftPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dij-GD-GUe"/>
+                        <viewControllerLayoutGuide type="bottom" id="2LW-AB-byC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hf7-UW-4fC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="cuD-Pd-Pps">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7Ie-Kp-yng"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lg3-8A-XtI">
+                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aF1-E9-6Lg">
+                                <rect key="frame" x="36" y="234" width="303" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="aef-kd-wuT"/>
+                                </constraints>
+                                <string key="text">This app transforms Wikipedia into image search engine.
+It uses Wikipedia search API to find content and scrapes the HTML of those pages for image URLs.
+This is only showcase app, not intended for production purposes.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lg3-8A-XtI" firstAttribute="leading" secondItem="Hf7-UW-4fC" secondAttribute="leading" id="Hyz-YW-0BJ"/>
+                            <constraint firstItem="cuD-Pd-Pps" firstAttribute="top" secondItem="dij-GD-GUe" secondAttribute="bottom" id="JRN-za-yre"/>
+                            <constraint firstItem="2LW-AB-byC" firstAttribute="top" secondItem="lg3-8A-XtI" secondAttribute="bottom" id="NuL-xm-zJz"/>
+                            <constraint firstAttribute="trailing" secondItem="cuD-Pd-Pps" secondAttribute="trailing" id="RJz-Ji-WSm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aF1-E9-6Lg" secondAttribute="trailing" constant="20" id="Xn5-id-HAI"/>
+                            <constraint firstItem="aF1-E9-6Lg" firstAttribute="centerY" secondItem="Hf7-UW-4fC" secondAttribute="centerY" id="ce8-Rc-8HB"/>
+                            <constraint firstItem="cuD-Pd-Pps" firstAttribute="leading" secondItem="Hf7-UW-4fC" secondAttribute="leading" id="fQh-iJ-ces"/>
+                            <constraint firstItem="aF1-E9-6Lg" firstAttribute="leading" secondItem="Hf7-UW-4fC" secondAttribute="leadingMargin" constant="20" id="pXe-Ji-hgY"/>
+                            <constraint firstItem="lg3-8A-XtI" firstAttribute="top" secondItem="cuD-Pd-Pps" secondAttribute="bottom" id="uSL-PY-lqB"/>
+                            <constraint firstAttribute="trailing" secondItem="lg3-8A-XtI" secondAttribute="trailing" id="xKw-Fh-EUc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search Wikipedia" id="Y72-w0-oN4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0n-G0-ohg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1388" y="-28.335832083958024"/>
+        </scene>
+        <!--部分アップデート-->
+        <scene sceneID="ySk-Hh-P6n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sHW-Bs-KQa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="部分アップデート" id="2hd-p8-WGG"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GQl-Le-gQj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dF2-3r-ded" kind="relationship" relationship="rootViewController" id="67G-Dv-WjJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qst-Rg-gJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="448.80000000000001" y="-28.335832083958024"/>
+        </scene>
+    </scenes>
 </document>

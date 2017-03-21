@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SimpleTableViewExampleSectionedViewController: UIViewController {
+class SimpleTableViewExampleSectionedViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

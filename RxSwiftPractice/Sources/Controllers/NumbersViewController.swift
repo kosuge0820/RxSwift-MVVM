@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NumbersViewController.swift
 //  RxSwift+MVVM
 //
 //  Created by k-satoshi on 2017/03/13.
@@ -10,35 +10,17 @@ import UIKit
 import RxSwift //
 import RxCocoa //UIのBind  ex: BindTo
 
-class FirstViewController: UIViewController {
-    private let viewModel = ViewModel()
-    private let presenter = Presenter()
-    private let disposeBag = DisposeBag()
-    
-    private lazy var customView: CustomView = {
-        let view = CustomView(frame: self.view.frame)
-        view.customButton.addTarget(self, action: #selector(tapped), for: UIControlEvents.touchUpInside)
-        return view
-    }()
+class NumbersViewController: UIViewController {
 
-    override func loadView() {
-        super.loadView()
-        view = customView
-    }
+    @IBOutlet weak var textField1: UITextField!
+    
+    @IBOutlet weak var textField2: UITextField!
+    
+    @IBOutlet weak var textField3: UITextField!
+    
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonHiddenObservale()
-    }
-
-    //MARK: - Demo2
-    private func buttonHiddenObservale() {
-        presenter.buttonHidden
-            .bindTo(customView.rx.isHidden)
-            .disposed(by: disposeBag)
-    }
-    
-    func tapped() {
-        presenter.start()
     }
 }

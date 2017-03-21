@@ -11,11 +11,32 @@
 		3816B9E21E7676F6009F2C10 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3816B9D41E766D6A009F2C10 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3816B9E31E7676F6009F2C10 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3816B9D51E766D6A009F2C10 /* RxSwift.framework */; };
 		3816B9E41E7676F6009F2C10 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3816B9D51E766D6A009F2C10 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		387693291E79A33200D10F28 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693241E79A33200D10F28 /* FifthViewController.swift */; };
-		3876932A1E79A33200D10F28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693251E79A33200D10F28 /* FirstViewController.swift */; };
-		3876932B1E79A33200D10F28 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693261E79A33200D10F28 /* FourthViewController.swift */; };
-		3876932C1E79A33200D10F28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693271E79A33200D10F28 /* SecondViewController.swift */; };
-		3876932D1E79A33200D10F28 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693281E79A33200D10F28 /* ThirdViewController.swift */; };
+		3819E8B51E80F59A004BB245 /* Numbers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8B41E80F59A004BB245 /* Numbers.storyboard */; };
+		3819E8B71E80F5A9004BB245 /* SimpleValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8B61E80F5A9004BB245 /* SimpleValidation.storyboard */; };
+		3819E8B91E80F5B7004BB245 /* Geolocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */; };
+		3819E8BB1E80F5C3004BB245 /* GitHubSignup1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */; };
+		3819E8BD1E80F5D2004BB245 /* GitHubSignup2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */; };
+		3819E8BF1E80F5DD004BB245 /* SimpleTableViewExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8BE1E80F5DD004BB245 /* SimpleTableViewExample.storyboard */; };
+		3819E8C11E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8C01E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard */; };
+		3819E8C31E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8C21E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard */; };
+		3819E8C51E80F603004BB245 /* PartialUpdates.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8C41E80F603004BB245 /* PartialUpdates.storyboard */; };
+		3819E8C71E80F60B004BB245 /* WikipediaSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8C61E80F60B004BB245 /* WikipediaSearch.storyboard */; };
+		3819E8C91E80F614004BB245 /* APIWrappers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8C81E80F614004BB245 /* APIWrappers.storyboard */; };
+		3819E8CB1E80F61E004BB245 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8CA1E80F61E004BB245 /* Calculator.storyboard */; };
+		3819E8CD1E80F629004BB245 /* GitHubSearchRepositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3819E8CC1E80F629004BB245 /* GitHubSearchRepositories.storyboard */; };
+		3819E8D91E80F84B004BB245 /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8D81E80F84B004BB245 /* SimpleTableViewExampleViewController.swift */; };
+		3819E8E01E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8DF1E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift */; };
+		3819E8E21E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E11E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift */; };
+		3819E8E41E80FD33004BB245 /* PartialUpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E31E80FD33004BB245 /* PartialUpdatesViewController.swift */; };
+		3819E8E61E80FD3A004BB245 /* WikipediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E51E80FD3A004BB245 /* WikipediaSearchViewController.swift */; };
+		3819E8E81E80FD41004BB245 /* APIWrappersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */; };
+		3819E8EA1E80FD4A004BB245 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */; };
+		3819E8EC1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */; };
+		387693291E79A33200D10F28 /* GitHubSignup2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */; };
+		3876932A1E79A33200D10F28 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693251E79A33200D10F28 /* NumbersViewController.swift */; };
+		3876932B1E79A33200D10F28 /* GitHubSignup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */; };
+		3876932C1E79A33200D10F28 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693271E79A33200D10F28 /* SimpleValidationViewController.swift */; };
+		3876932D1E79A33200D10F28 /* GeolocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693281E79A33200D10F28 /* GeolocationViewController.swift */; };
 		387693331E79A34B00D10F28 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876932E1E79A34B00D10F28 /* Action.swift */; };
 		387693341E79A34B00D10F28 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876932F1E79A34B00D10F28 /* CustomView.swift */; };
 		387693351E79A34B00D10F28 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 387693301E79A34B00D10F28 /* CustomView.xib */; };
@@ -50,11 +71,32 @@
 		3816B9D41E766D6A009F2C10 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		3816B9D51E766D6A009F2C10 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		3816B9D61E766D6A009F2C10 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		387693241E79A33200D10F28 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = RxSwiftPractice/Sources/Controllers/FifthViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693251E79A33200D10F28 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = RxSwiftPractice/Sources/Controllers/FirstViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693261E79A33200D10F28 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = RxSwiftPractice/Sources/Controllers/FourthViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693271E79A33200D10F28 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = RxSwiftPractice/Sources/Controllers/SecondViewController.swift; sourceTree = SOURCE_ROOT; };
-		387693281E79A33200D10F28 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = RxSwiftPractice/Sources/Controllers/ThirdViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8B41E80F59A004BB245 /* Numbers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Numbers.storyboard; path = RxSwiftPractice/Resources/Numbers.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8B61E80F5A9004BB245 /* SimpleValidation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleValidation.storyboard; path = RxSwiftPractice/Resources/SimpleValidation.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Geolocation.storyboard; path = RxSwiftPractice/Resources/Geolocation.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GitHubSignup1.storyboard; path = RxSwiftPractice/Resources/GitHubSignup1.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GitHubSignup2.storyboard; path = RxSwiftPractice/Resources/GitHubSignup2.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8BE1E80F5DD004BB245 /* SimpleTableViewExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleTableViewExample.storyboard; path = RxSwiftPractice/Resources/SimpleTableViewExample.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8C01E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleTableViewExampleSectioned.storyboard; path = RxSwiftPractice/Resources/SimpleTableViewExampleSectioned.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8C21E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TableViewWithEditingCommands.storyboard; path = RxSwiftPractice/Resources/TableViewWithEditingCommands.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8C41E80F603004BB245 /* PartialUpdates.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PartialUpdates.storyboard; path = RxSwiftPractice/Resources/PartialUpdates.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8C61E80F60B004BB245 /* WikipediaSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WikipediaSearch.storyboard; path = RxSwiftPractice/Resources/WikipediaSearch.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8C81E80F614004BB245 /* APIWrappers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APIWrappers.storyboard; path = RxSwiftPractice/Resources/APIWrappers.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8CA1E80F61E004BB245 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calculator.storyboard; path = RxSwiftPractice/Resources/Calculator.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8CC1E80F629004BB245 /* GitHubSearchRepositories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GitHubSearchRepositories.storyboard; path = RxSwiftPractice/Resources/GitHubSearchRepositories.storyboard; sourceTree = SOURCE_ROOT; };
+		3819E8D81E80F84B004BB245 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleTableViewExampleViewController.swift; path = RxSwiftPractice/Sources/Controllers/SimpleTableViewExampleViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8DF1E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleSectionedViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8E11E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewWithEditingCommandsViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8E31E80FD33004BB245 /* PartialUpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialUpdatesViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8E51E80FD3A004BB245 /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrappersViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = SOURCE_ROOT; };
+		3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSearchRepositoriesViewController.swift; sourceTree = SOURCE_ROOT; };
+		387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitHubSignup2ViewController.swift; path = RxSwiftPractice/Sources/Controllers/GitHubSignup2ViewController.swift; sourceTree = SOURCE_ROOT; };
+		387693251E79A33200D10F28 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumbersViewController.swift; path = RxSwiftPractice/Sources/Controllers/NumbersViewController.swift; sourceTree = SOURCE_ROOT; };
+		387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitHubSignup1ViewController.swift; path = RxSwiftPractice/Sources/Controllers/GitHubSignup1ViewController.swift; sourceTree = SOURCE_ROOT; };
+		387693271E79A33200D10F28 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleValidationViewController.swift; path = RxSwiftPractice/Sources/Controllers/SimpleValidationViewController.swift; sourceTree = SOURCE_ROOT; };
+		387693281E79A33200D10F28 /* GeolocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeolocationViewController.swift; path = RxSwiftPractice/Sources/Controllers/GeolocationViewController.swift; sourceTree = SOURCE_ROOT; };
 		3876932E1E79A34B00D10F28 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Action.swift; path = RxSwiftPractice/Sources/ViewModels/Action.swift; sourceTree = SOURCE_ROOT; };
 		3876932F1E79A34B00D10F28 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = RxSwiftPractice/Sources/ViewModels/CustomView.swift; sourceTree = SOURCE_ROOT; };
 		387693301E79A34B00D10F28 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomView.xib; path = RxSwiftPractice/Sources/ViewModels/CustomView.xib; sourceTree = SOURCE_ROOT; };
@@ -108,20 +150,6 @@
 			path = "RxSwift+MVVM";
 			sourceTree = "<group>";
 		};
-		3811ACB61E76360200A0C3AD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3811ACB71E76360600A0C3AD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		3811ACB81E76360A00A0C3AD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,26 +162,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		3811ACB91E76361100A0C3AD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				387693251E79A33200D10F28 /* FirstViewController.swift */,
-				387693271E79A33200D10F28 /* SecondViewController.swift */,
-				387693281E79A33200D10F28 /* ThirdViewController.swift */,
-				387693261E79A33200D10F28 /* FourthViewController.swift */,
-				387693241E79A33200D10F28 /* FifthViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		3811ACBA1E76361700A0C3AD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3819E8CE1E80F73E004BB245 /* Examples */,
 				3811ACBC1E76362F00A0C3AD /* Config */,
-				3811ACB91E76361100A0C3AD /* Controllers */,
-				3811ACB71E76360600A0C3AD /* Models */,
 				3811ACB81E76360A00A0C3AD /* ViewModels */,
-				3811ACB61E76360200A0C3AD /* Views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -186,6 +200,143 @@
 				3816B9D61E766D6A009F2C10 /* RxTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3819E8CE1E80F73E004BB245 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8CF1E80F74C004BB245 /* Numbers */,
+				3819E8D71E80F760004BB245 /* SimpleValidation */,
+				3819E8D61E80F75F004BB245 /* Geolocation */,
+				3819E8D51E80F75E004BB245 /* GitHubSignup1 */,
+				3819E8D41E80F75D004BB245 /* GitHubSignup2 */,
+				3819E8D31E80F75A004BB245 /* SimpleTableViewExample */,
+				3819E8D21E80F759004BB245 /* SimpleTableViewExampleSectioned */,
+				3819E8D11E80F755004BB245 /* TableViewWithEditingCommands */,
+				3819E8D01E80F755004BB245 /* TableViewPartialUpdates */,
+				3819E8DA1E80F964004BB245 /* WikipediaSearch */,
+				3819E8DE1E80FC09004BB245 /* APIWrappers */,
+				3819E8DD1E80FC08004BB245 /* Calculator */,
+				3819E8DC1E80FC07004BB245 /* GitHubSerchRespositories */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		3819E8CF1E80F74C004BB245 /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8B41E80F59A004BB245 /* Numbers.storyboard */,
+				387693251E79A33200D10F28 /* NumbersViewController.swift */,
+			);
+			name = Numbers;
+			sourceTree = "<group>";
+		};
+		3819E8D01E80F755004BB245 /* TableViewPartialUpdates */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8C41E80F603004BB245 /* PartialUpdates.storyboard */,
+				3819E8E31E80FD33004BB245 /* PartialUpdatesViewController.swift */,
+			);
+			name = TableViewPartialUpdates;
+			sourceTree = "<group>";
+		};
+		3819E8D11E80F755004BB245 /* TableViewWithEditingCommands */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8C21E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard */,
+				3819E8E11E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift */,
+			);
+			name = TableViewWithEditingCommands;
+			sourceTree = "<group>";
+		};
+		3819E8D21E80F759004BB245 /* SimpleTableViewExampleSectioned */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8C01E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard */,
+				3819E8DF1E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift */,
+			);
+			name = SimpleTableViewExampleSectioned;
+			sourceTree = "<group>";
+		};
+		3819E8D31E80F75A004BB245 /* SimpleTableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8BE1E80F5DD004BB245 /* SimpleTableViewExample.storyboard */,
+				3819E8D81E80F84B004BB245 /* SimpleTableViewExampleViewController.swift */,
+			);
+			name = SimpleTableViewExample;
+			sourceTree = "<group>";
+		};
+		3819E8D41E80F75D004BB245 /* GitHubSignup2 */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */,
+				387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */,
+			);
+			name = GitHubSignup2;
+			sourceTree = "<group>";
+		};
+		3819E8D51E80F75E004BB245 /* GitHubSignup1 */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */,
+				387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */,
+			);
+			name = GitHubSignup1;
+			sourceTree = "<group>";
+		};
+		3819E8D61E80F75F004BB245 /* Geolocation */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */,
+				387693281E79A33200D10F28 /* GeolocationViewController.swift */,
+			);
+			name = Geolocation;
+			sourceTree = "<group>";
+		};
+		3819E8D71E80F760004BB245 /* SimpleValidation */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8B61E80F5A9004BB245 /* SimpleValidation.storyboard */,
+				387693271E79A33200D10F28 /* SimpleValidationViewController.swift */,
+			);
+			name = SimpleValidation;
+			sourceTree = "<group>";
+		};
+		3819E8DA1E80F964004BB245 /* WikipediaSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8C61E80F60B004BB245 /* WikipediaSearch.storyboard */,
+				3819E8E51E80FD3A004BB245 /* WikipediaSearchViewController.swift */,
+			);
+			name = WikipediaSearch;
+			sourceTree = "<group>";
+		};
+		3819E8DC1E80FC07004BB245 /* GitHubSerchRespositories */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8CC1E80F629004BB245 /* GitHubSearchRepositories.storyboard */,
+				3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */,
+			);
+			name = GitHubSerchRespositories;
+			sourceTree = "<group>";
+		};
+		3819E8DD1E80FC08004BB245 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8CA1E80F61E004BB245 /* Calculator.storyboard */,
+				3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		3819E8DE1E80FC09004BB245 /* APIWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				3819E8C81E80F614004BB245 /* APIWrappers.storyboard */,
+				3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */,
+			);
+			name = APIWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,11 +401,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3819E8C11E80F5E8004BB245 /* SimpleTableViewExampleSectioned.storyboard in Resources */,
+				3819E8CD1E80F629004BB245 /* GitHubSearchRepositories.storyboard in Resources */,
 				3876933E1E79A37700D10F28 /* LaunchScreen.storyboard in Resources */,
+				3819E8B91E80F5B7004BB245 /* Geolocation.storyboard in Resources */,
+				3819E8C51E80F603004BB245 /* PartialUpdates.storyboard in Resources */,
 				387693351E79A34B00D10F28 /* CustomView.xib in Resources */,
+				3819E8C71E80F60B004BB245 /* WikipediaSearch.storyboard in Resources */,
 				387693431E79A38600D10F28 /* Info.plist in Resources */,
+				3819E8BD1E80F5D2004BB245 /* GitHubSignup2.storyboard in Resources */,
+				3819E8BF1E80F5DD004BB245 /* SimpleTableViewExample.storyboard in Resources */,
+				3819E8C31E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard in Resources */,
 				3876933F1E79A37700D10F28 /* Main.storyboard in Resources */,
+				3819E8C91E80F614004BB245 /* APIWrappers.storyboard in Resources */,
 				387693421E79A38600D10F28 /* Assets.xcassets in Resources */,
+				3819E8CB1E80F61E004BB245 /* Calculator.storyboard in Resources */,
+				3819E8B71E80F5A9004BB245 /* SimpleValidation.storyboard in Resources */,
+				3819E8B51E80F59A004BB245 /* Numbers.storyboard in Resources */,
+				3819E8BB1E80F5C3004BB245 /* GitHubSignup1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +447,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3819E8E01E80FD0A004BB245 /* SimpleTableViewExampleSectionedViewController.swift in Sources */,
+				3819E8D91E80F84B004BB245 /* SimpleTableViewExampleViewController.swift in Sources */,
 				387693331E79A34B00D10F28 /* Action.swift in Sources */,
-				3876932A1E79A33200D10F28 /* FirstViewController.swift in Sources */,
-				3876932C1E79A33200D10F28 /* SecondViewController.swift in Sources */,
-				387693291E79A33200D10F28 /* FifthViewController.swift in Sources */,
+				3819E8E41E80FD33004BB245 /* PartialUpdatesViewController.swift in Sources */,
+				3876932A1E79A33200D10F28 /* NumbersViewController.swift in Sources */,
+				3819E8EC1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift in Sources */,
+				3876932C1E79A33200D10F28 /* SimpleValidationViewController.swift in Sources */,
+				387693291E79A33200D10F28 /* GitHubSignup2ViewController.swift in Sources */,
+				3819E8E81E80FD41004BB245 /* APIWrappersViewController.swift in Sources */,
 				387693371E79A34B00D10F28 /* ViewModel.swift in Sources */,
-				3876932B1E79A33200D10F28 /* FourthViewController.swift in Sources */,
-				3876932D1E79A33200D10F28 /* ThirdViewController.swift in Sources */,
+				3876932B1E79A33200D10F28 /* GitHubSignup1ViewController.swift in Sources */,
+				3876932D1E79A33200D10F28 /* GeolocationViewController.swift in Sources */,
+				3819E8E21E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift in Sources */,
 				387693341E79A34B00D10F28 /* CustomView.swift in Sources */,
 				387693391E79A35900D10F28 /* AppDelegate.swift in Sources */,
 				387693361E79A34B00D10F28 /* Presenter.swift in Sources */,
+				3819E8E61E80FD3A004BB245 /* WikipediaSearchViewController.swift in Sources */,
+				3819E8EA1E80FD4A004BB245 /* CalculatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GitHubSearchRepositoriesViewController: UIViewController {
+class GitHubSearchRepositoriesViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
