@@ -7,7 +7,55 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-class GithubSignupViewModel2: a {
-
+class GithubSignupViewModel2 {
+    
+    let validatedUsername: Driver<ValidationResult>
+    let validatedPassword: Driver<ValidationResult>
+    let validatedPasswordRepeated: Driver<ValidationResult>
+    
+    let signupEnabled: Driver<Bool>
+    let signedIn: Driver<Bool>
+    let signingIn: Driver<Bool>
+    
+    init(
+        input: (
+            username: Driver<String>,
+            password: Driver<String>,
+            repeatedPassword: Driver<String>,
+            loginTaps: Driver<Void>
+        ),
+        dependency: (
+            API: GitHubAPI,
+            validationService: GitHubValidationService,
+            wireframe: Wireframe)
+        ) {
+        let API = dependency.API
+        let validationService = dependency.validationService
+        let wireframe = dependency.wireframe
+        
+        validatedUsername = input.username
+            .flatMapLatest { username in
+                return validationService.validateUsername(username)
+                    .asDriver(onErrorJustReturn: .failed(message: "error contacting server"))
+            }
+        
+        validatedPassword = input.password
+            .map { password in
+                return validationService.validatePassword(password)
+            }
+        
+        validatedPasswordRepeated = Driver.combineLatest(input.password, input.repeatedPassword, resultSelector: validationService.validateRepeatedPassword)
+        
+        let signingIn = ActivityIndicator()
+        self.signingIn = signingIn.asDriver()
+        let usernameAndPassword = Driver.combineLatest(input.username, input.password) { ($0, $1) }
+        
+        signedIn = input.loginTaps.withLatestFrom(usernameAndPassword)
+            .flatMapLatest { (username, password) in
+                return API.signup(username, password: password)
+            }
+    }
 }

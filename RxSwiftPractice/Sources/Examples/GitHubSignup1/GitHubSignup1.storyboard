@@ -153,6 +153,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="G8e-NM-ICR"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="PzV-mw-K8j" id="HKU-lX-Wga"/>
+                        <outlet property="passwordValidationLabel" destination="OOc-0r-fyk" id="OSI-wK-AKk"/>
+                        <outlet property="repeatLabel" destination="sFB-n2-Jgy" id="JjJ-kf-AZC"/>
+                        <outlet property="repeatTextField" destination="ZTT-1U-oxF" id="8Qv-nZ-gch"/>
+                        <outlet property="signupActivityIndicatorView" destination="KY7-QC-op0" id="ubD-Wy-P2D"/>
+                        <outlet property="signupButton" destination="Qrd-Nn-POy" id="TT1-GK-euF"/>
+                        <outlet property="usernameTextField" destination="jqZ-SP-yq3" id="lk5-wl-Hzf"/>
+                        <outlet property="usernameValidationLabel" destination="jMA-lJ-Nj0" id="3IB-Hh-Hrm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJq-4b-8Xs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

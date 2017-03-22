@@ -7,10 +7,18 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
+import CoreLocation
 
 class GeolocationViewController: UIViewController {
-
+    @IBOutlet var noGeolocationView: UIView!
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var resultLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(noGeolocationView)
     }
 }

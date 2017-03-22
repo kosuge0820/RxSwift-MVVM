@@ -1,3 +1,5 @@
+
+
 //
 //  GeolocationService.swift
 //  RxSwiftPractice
@@ -7,7 +9,9 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import CoreLocation
 
-class GeolocationService: a {
-
+class GeolocationService {
 }

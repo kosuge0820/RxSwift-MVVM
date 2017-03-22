@@ -32,6 +32,13 @@
 		3819E8E81E80FD41004BB245 /* APIWrappersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */; };
 		3819E8EA1E80FD4A004BB245 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */; };
 		3819E8EC1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */; };
+		382219711E8130C50095DEFD /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382219701E8130C50095DEFD /* GeolocationService.swift */; };
+		382219731E813BB50095DEFD /* GithubSignupViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382219721E813BB50095DEFD /* GithubSignupViewModel1.swift */; };
+		382219751E813BED0095DEFD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382219741E813BED0095DEFD /* Protocols.swift */; };
+		384F3A8D1E82429900BC3E87 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F3A8C1E82429900BC3E87 /* ActivityIndicator.swift */; };
+		384F3A8F1E82495C00BC3E87 /* GitHubDefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F3A8E1E82495C00BC3E87 /* GitHubDefaultAPI.swift */; };
+		384F3A921E8255FB00BC3E87 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F3A911E8255FB00BC3E87 /* UILabel+Extension.swift */; };
+		384F3A941E8273B800BC3E87 /* GithubSignupViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F3A931E8273B800BC3E87 /* GithubSignupViewModel2.swift */; };
 		387693291E79A33200D10F28 /* GitHubSignup2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */; };
 		3876932A1E79A33200D10F28 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693251E79A33200D10F28 /* NumbersViewController.swift */; };
 		3876932B1E79A33200D10F28 /* GitHubSignup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */; };
@@ -92,6 +99,13 @@
 		3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrappersViewController.swift; sourceTree = "<group>"; };
 		3819E8E91E80FD4A004BB245 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		3819E8EB1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSearchRepositoriesViewController.swift; sourceTree = "<group>"; };
+		382219701E8130C50095DEFD /* GeolocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
+		382219721E813BB50095DEFD /* GithubSignupViewModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel1.swift; sourceTree = "<group>"; };
+		382219741E813BED0095DEFD /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		384F3A8C1E82429900BC3E87 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		384F3A8E1E82495C00BC3E87 /* GitHubDefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDefaultAPI.swift; sourceTree = "<group>"; };
+		384F3A911E8255FB00BC3E87 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		384F3A931E8273B800BC3E87 /* GithubSignupViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel2.swift; sourceTree = "<group>"; };
 		387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup2ViewController.swift; sourceTree = "<group>"; };
 		387693251E79A33200D10F28 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup1ViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +218,7 @@
 		3819E8CE1E80F73E004BB245 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				384F3A901E8255E600BC3E87 /* Extension */,
 				3819E8CF1E80F74C004BB245 /* Numbers */,
 				3819E8D71E80F760004BB245 /* SimpleValidation */,
 				3819E8D61E80F75F004BB245 /* Geolocation */,
@@ -271,6 +286,7 @@
 			children = (
 				3819E8BC1E80F5D2004BB245 /* GitHubSignup2.storyboard */,
 				387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */,
+				384F3A931E8273B800BC3E87 /* GithubSignupViewModel2.swift */,
 			);
 			path = GitHubSignup2;
 			sourceTree = "<group>";
@@ -280,6 +296,10 @@
 			children = (
 				3819E8BA1E80F5C3004BB245 /* GitHubSignup1.storyboard */,
 				387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */,
+				382219721E813BB50095DEFD /* GithubSignupViewModel1.swift */,
+				382219741E813BED0095DEFD /* Protocols.swift */,
+				384F3A8C1E82429900BC3E87 /* ActivityIndicator.swift */,
+				384F3A8E1E82495C00BC3E87 /* GitHubDefaultAPI.swift */,
 			);
 			path = GitHubSignup1;
 			sourceTree = "<group>";
@@ -289,6 +309,7 @@
 			children = (
 				3819E8B81E80F5B7004BB245 /* Geolocation.storyboard */,
 				387693281E79A33200D10F28 /* GeolocationViewController.swift */,
+				382219701E8130C50095DEFD /* GeolocationService.swift */,
 			);
 			path = Geolocation;
 			sourceTree = "<group>";
@@ -336,6 +357,14 @@
 				3819E8E71E80FD41004BB245 /* APIWrappersViewController.swift */,
 			);
 			path = APIWrappers;
+			sourceTree = "<group>";
+		};
+		384F3A901E8255E600BC3E87 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				384F3A911E8255FB00BC3E87 /* UILabel+Extension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,16 +483,23 @@
 				3819E8EC1E810EEC004BB245 /* GitHubSearchRepositoriesViewController.swift in Sources */,
 				3876932C1E79A33200D10F28 /* SimpleValidationViewController.swift in Sources */,
 				387693291E79A33200D10F28 /* GitHubSignup2ViewController.swift in Sources */,
+				384F3A921E8255FB00BC3E87 /* UILabel+Extension.swift in Sources */,
 				3819E8E81E80FD41004BB245 /* APIWrappersViewController.swift in Sources */,
+				382219751E813BED0095DEFD /* Protocols.swift in Sources */,
+				382219731E813BB50095DEFD /* GithubSignupViewModel1.swift in Sources */,
 				387693371E79A34B00D10F28 /* ViewModel.swift in Sources */,
 				3876932B1E79A33200D10F28 /* GitHubSignup1ViewController.swift in Sources */,
 				3876932D1E79A33200D10F28 /* GeolocationViewController.swift in Sources */,
 				3819E8E21E80FD24004BB245 /* TableViewWithEditingCommandsViewController.swift in Sources */,
 				387693341E79A34B00D10F28 /* CustomView.swift in Sources */,
+				384F3A8F1E82495C00BC3E87 /* GitHubDefaultAPI.swift in Sources */,
+				384F3A8D1E82429900BC3E87 /* ActivityIndicator.swift in Sources */,
 				387693391E79A35900D10F28 /* AppDelegate.swift in Sources */,
 				387693361E79A34B00D10F28 /* Presenter.swift in Sources */,
 				3819E8E61E80FD3A004BB245 /* WikipediaSearchViewController.swift in Sources */,
 				3819E8EA1E80FD4A004BB245 /* CalculatorViewController.swift in Sources */,
+				382219711E8130C50095DEFD /* GeolocationService.swift in Sources */,
+				384F3A941E8273B800BC3E87 /* GithubSignupViewModel2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
