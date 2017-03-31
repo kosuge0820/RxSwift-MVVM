@@ -3,9 +3,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [3.3.1](https://github.com/ReactiveX/RxSwift/releases/tag/3.3.1) (Xcode 8 / Swift 3.0 compatible)
+
+#### Anomalies
+
+* Fixes misspelled `Completeable` to `Completable`. #1134 
+
 ## [3.3.0](https://github.com/ReactiveX/RxSwift/releases/tag/3.3.0) (Xcode 8 / Swift 3.0 compatible)
 
-* Adds `Single`, `Maybe`, `Completeable` units inspired by RxJava (operators):
+* Adds `Single`, `Maybe`, `Completable` units inspired by RxJava (operators):
     * `create`
     * `deferred`
     * `just`
@@ -25,7 +31,7 @@ All notable changes to this project will be documented in this file.
     * `zip`
 * Adds `asSingle()` operator on `ObservableType`.
 * Adds `asMaybe()` operator on `ObservableType`.
-* Adds `asCompleteable()` operator on `ObservableType`.
+* Adds `asCompletable()` operator on `ObservableType`.
 * Adds variadic `combineLatest` and `zip` overloads without result selector (defaults to tuple).
 * Adds array `combineLatest` and `zip` overloads with result selector (defaults to array of elements)
 * Adds optimized synchronous `merge` operator to observable sequence (variadic, array, collection). #579
@@ -37,7 +43,7 @@ All notable changes to this project will be documented in this file.
 * Adds `onSubscribed` to `do` operator.
 * Adds `isUserInteractionEnabled` to `UIView`.
 
-## Anomalies
+#### Anomalies
 * Improves DelegateProxy `responds(to:)` selector logic to only respond to used selectors. #1081, #1087
 * Deprecates `from()` in favor of `from(optional:)` to avoid issues with implicit conversions to optional.
 * Fixes thread sanitizer reporting issues with `merge` operator. #1063
@@ -62,7 +68,7 @@ All notable changes to this project will be documented in this file.
     * Remove unnecessary `import Foundation` statements.
     * Examples cleanup.
 
-## Anomalies
+#### Anomalies
 
 * Improves behavior of `shareReplayWhileConnected` by making sure that events emitted after disconnect are ignored even in case of fast reconnect.
 * Fixes a couple of operators that were not cleaning up resources on terminal events when used without `DisposeBag`s.

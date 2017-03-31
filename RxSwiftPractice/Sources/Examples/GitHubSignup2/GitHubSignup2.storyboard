@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ygS-Ss-D5z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ygS-Ss-D5z">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -153,6 +153,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="M1i-6r-san"/>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="y2e-2X-YUJ" id="dP1-OH-KYn"/>
+                        <outlet property="confirmPasswordValidationLabel" destination="5x2-15-QVG" id="5hL-rz-iXZ"/>
+                        <outlet property="loadingActivityView" destination="rno-AI-iOK" id="S7b-MB-ysa"/>
+                        <outlet property="passwordTextField" destination="Nvk-k4-RYQ" id="F0e-E0-ldq"/>
+                        <outlet property="passwordValidationLabel" destination="Bpu-ub-GzP" id="AMD-jO-b4z"/>
+                        <outlet property="signUpButton" destination="CS1-On-Wmo" id="wfP-xx-S2h"/>
+                        <outlet property="usernameTextField" destination="Ufh-nT-WOq" id="tpQ-Cf-2L2"/>
+                        <outlet property="usernameValidationLabel" destination="zXO-Pq-yCY" id="lGd-E7-DAE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDC-ez-95R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

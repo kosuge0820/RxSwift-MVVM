@@ -56,6 +56,47 @@ class GithubSignupViewModel2 {
         signedIn = input.loginTaps.withLatestFrom(usernameAndPassword)
             .flatMapLatest { (username, password) in
                 return API.signup(username, password: password)
+                    .trackActivity(signingIn)
+                    .asDriver(onErrorJustReturn: false)
             }
+            .flatMapLatest { loggedIn -> Driver<Bool> in
+                let message = loggedIn ? "Mock: Signed in to GitHub." : "Mock: Sign in to GitHub failed"
+                return wireframe.promptFor(message, cancelAction: "OK", actions: [])
+                    .map { _ in
+                        loggedIn
+                    }
+                    .asDriver(onErrorJustReturn: false)
+            }
+        
+        signupEnabled = Driver.combineLatest(
+            validatedUsername,
+            validatedPassword,
+            validatedPasswordRepeated,
+            signingIn, resultSelector: { (username, password, repeatPassWord, signingIn) in
+                username.isValid &&
+                password.isValid &&
+                repeatPassWord.isValid &&
+                !signingIn
+            })
+            .distinctUntilChanged()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
