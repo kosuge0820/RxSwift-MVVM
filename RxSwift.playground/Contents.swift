@@ -61,7 +61,9 @@ example(of: "subscribe") {
     })
 }
 
-//__ empty:__ 値を持たず、正常に終了するObservableを生成
+/*:
+__empty:__ 値を持たず、正常に終了するObservableを生成
+*/
 
 example(of: "empty") { 
     let observable = Observable<Void>.empty()
@@ -69,10 +71,70 @@ example(of: "empty") {
         onNext: {
             print($0) //skip
         }, onCompleted: {
-            print("complete")
+            print("Completed")
         }
     )
 }
+
+
+/*:
+__never:__ 値を持たず、終了しないObservableを生成
+ */
+example(of: "never") {
+    let observable = Observable<Any>.never()
+    observable.subscribe(
+        onNext: {
+            print($0)
+        }, onCompleted: {
+            print("Completed")
+        }
+    )
+}
+
+/*:
+__range:__ 特定の範囲の整数を元にObservableを生成します
+*/
+
+example(of: "range") { 
+    let observable = Observable<Int>.range(start: 1, count: 10)
+    observable.subscribe(
+        onNext: { i in
+            let n = Double(i)
+            let fibonacci = Int((pow(1.61803, n) - pow(0.61803, n)) / 2.23606.rounded())
+            print(fibonacci)
+        }
+    )
+}
+
+/*:
+__dispose:__ データバインドの解除
+*/
+
+example(of: "dispose") {
+    let observable = Observable.of("A", "B", "C")
+    let subscription = observable.subscribe {
+        print($0)
+    }
+    subscription.dispose()
+}
+
+/*:
+ __DisposeBag:__ データバインドの解除
+ */
+
+example(of: "DisposeBag") { 
+    let disposeBag = DisposeBag()
+    Observable.of("A", "B", "C")
+        .subscribe {
+            print($0)
+        }
+        .disposed(by: disposeBag)
+}
+
+
+
+
+
 
 
 

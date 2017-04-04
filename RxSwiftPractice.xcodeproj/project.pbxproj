@@ -53,7 +53,6 @@
 		3876933E1E79A37700D10F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3876933A1E79A37700D10F28 /* LaunchScreen.storyboard */; };
 		3876933F1E79A37700D10F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3876933C1E79A37700D10F28 /* Main.storyboard */; };
 		387693421E79A38600D10F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387693401E79A38600D10F28 /* Assets.xcassets */; };
-		387693431E79A38600D10F28 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 387693411E79A38600D10F28 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -396,7 +395,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "k-satoshi";
 				TargetAttributes = {
 					3811AC7A1E7635D000A0C3AD = {
@@ -436,7 +435,6 @@
 				3819E8C51E80F603004BB245 /* PartialUpdates.storyboard in Resources */,
 				387693351E79A34B00D10F28 /* CustomView.xib in Resources */,
 				3819E8C71E80F60B004BB245 /* WikipediaSearch.storyboard in Resources */,
-				387693431E79A38600D10F28 /* Info.plist in Resources */,
 				3819E8BD1E80F5D2004BB245 /* GitHubSignup2.storyboard in Resources */,
 				3819E8BF1E80F5DD004BB245 /* SimpleTableViewExample.storyboard in Resources */,
 				3819E8C31E80F5FA004BB245 /* TableViewWithEditingCommands.storyboard in Resources */,
@@ -631,7 +629,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwiftPractice/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.satoshi.RxSwiftPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -648,7 +646,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RxSwiftPractice/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.satoshi.RxSwift-MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.satoshi.RxSwiftPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
