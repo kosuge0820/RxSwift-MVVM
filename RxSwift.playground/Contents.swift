@@ -131,9 +131,57 @@ example(of: "DisposeBag") {
         .disposed(by: disposeBag)
 }
 
+/*:
+ __create:__ 関数からObservableを生成
+*/
 
+example(of: "create") { 
+    enum CreateError: Error { case anError }
+    
+    let disposeBag = DisposeBag()
+    
+    Observable<String>.create { observer in
+        observer.onNext("1")
+//        observer.onError(CreateError.anError) // skip "?"
+//        observer.onCompleted()                // skip "?"
+        observer.onNext("?")
+        return Disposables.create()
+    }
+    .subscribe(
+        onNext: { print($0) },
+        onError: { print($0) },
+        onCompleted: { print("Completed") },
+        onDisposed: { print("Disposed") }
+    )
+    .disposed(by: disposeBag)
+}
 
+extension Bool {
+    mutating func flip() -> Bool {
+        return !self
+    }
+}
 
+example(of: "deferred") { 
+    let disposeBag = DisposeBag()
+    var flip = false
+    let factory: Observable<Int> = Observable.deferred {
+        flip.flip()
+        
+        if flip {
+            return Observable.of(1, 2, 3)
+        } else {
+            return Observable.of(4, 5, 6)
+        }
+    }
+    
+    for _ in 0...3 {
+        factory.subscribe(onNext: {
+            print($0, terminator: "")
+        })
+        .disposed(by: disposeBag)
+    }
+}
 
 
 
