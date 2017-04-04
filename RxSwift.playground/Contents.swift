@@ -6,7 +6,9 @@
 
 import UIKit
 import RxSwift
+import PlaygroundSupport
 
+PlaygroundPage.current.needsIndefiniteExecution = true
 let one = 1
 let two = 2
 let three = 3
@@ -132,7 +134,7 @@ example(of: "DisposeBag") {
 }
 
 /*:
- __create:__ 関数からObservableを生成
+__create:__ 関数からObservableを生成
 */
 
 example(of: "create") { 
@@ -162,6 +164,10 @@ extension Bool {
     }
 }
 
+/*:
+ __deferred:__
+ */
+
 example(of: "deferred") { 
     let disposeBag = DisposeBag()
     var flip = false
@@ -183,7 +189,42 @@ example(of: "deferred") {
     }
 }
 
-
+example(of: "PublishSubject") { 
+    let subject = PublishSubject<String>()
+    subject.onNext("Is anyone listening")
+    
+    let subscriptionOne = subject.subscribe(onNext: {
+        print($0)
+    })
+    
+    subject.on(.next("1"))
+    subject.onNext("2")
+    
+    let subscriptionTwo = subject
+        .subscribe { event in
+            print("2", $0.element ?? event)
+        }
+    subject.onNext("3")
+    
+    subscriptionOne.dispose()
+    
+    subject.onNext("4")
+    
+    subject.onCompleted()
+    
+    subject.onNext("5")
+    
+    subscriptionTwo.dispose()
+    
+    let disposeBag = DisposeBag()
+    
+    subject.subscribe {
+        print("3", $0.element ?? $0)
+    }
+    .disposed(by: disposeBag)
+    
+    subject.onNext("?")
+}
 
 
 
