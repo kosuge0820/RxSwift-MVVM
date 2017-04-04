@@ -73,7 +73,6 @@
 
 /* Begin PBXFileReference section */
 		3811AC7B1E7635D000A0C3AD /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3816B9D11E766B36009F2C10 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		3816B9D31E766D6A009F2C10 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		3816B9D41E766D6A009F2C10 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		3816B9D51E766D6A009F2C10 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -106,6 +105,7 @@
 		384F3A8E1E82495C00BC3E87 /* GitHubDefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDefaultAPI.swift; sourceTree = "<group>"; };
 		384F3A911E8255FB00BC3E87 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		384F3A931E8273B800BC3E87 /* GithubSignupViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel2.swift; sourceTree = "<group>"; };
+		3862FB131E93B4C100679208 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = SOURCE_ROOT; };
 		387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup2ViewController.swift; sourceTree = "<group>"; };
 		387693251E79A33200D10F28 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup1ViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +139,6 @@
 		3811AC721E7635D000A0C3AD = {
 			isa = PBXGroup;
 			children = (
-				3816B9D11E766B36009F2C10 /* MyPlayground.playground */,
 				3811AC7D1E7635D000A0C3AD /* RxSwiftPractice */,
 				3816B9D21E766D6A009F2C10 /* Frameworks */,
 				3811AC7C1E7635D000A0C3AD /* Products */,
@@ -157,6 +156,7 @@
 		3811AC7D1E7635D000A0C3AD /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				3862FB131E93B4C100679208 /* RxSwift.playground */,
 				3811ACBA1E76361700A0C3AD /* Sources */,
 				3811ACBB1E76361B00A0C3AD /* Resources */,
 			);

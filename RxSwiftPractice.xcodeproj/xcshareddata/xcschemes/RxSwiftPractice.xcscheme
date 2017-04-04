@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2EA280B1BB9B5A200880ED3"
-               BuildableName = "RxSwift.framework"
-               BlueprintName = "RxSwift-tvOS"
-               ReferencedContainer = "container:Rx.xcodeproj">
+               BlueprintIdentifier = "3811AC7A1E7635D000A0C3AD"
+               BuildableName = "RxSwiftPractice.app"
+               BlueprintName = "RxSwiftPractice"
+               ReferencedContainer = "container:RxSwiftPractice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C83509831C38740E0027C24C"
-               BuildableName = "AllTests-tvOS.xctest"
-               BlueprintName = "AllTests-tvOS"
-               ReferencedContainer = "container:Rx.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2EA280B1BB9B5A200880ED3"
-            BuildableName = "RxSwift.framework"
-            BlueprintName = "RxSwift-tvOS"
-            ReferencedContainer = "container:Rx.xcodeproj">
+            BlueprintIdentifier = "3811AC7A1E7635D000A0C3AD"
+            BuildableName = "RxSwiftPractice.app"
+            BlueprintName = "RxSwiftPractice"
+            ReferencedContainer = "container:RxSwiftPractice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -61,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2EA280B1BB9B5A200880ED3"
-            BuildableName = "RxSwift.framework"
-            BlueprintName = "RxSwift-tvOS"
-            ReferencedContainer = "container:Rx.xcodeproj">
+            BlueprintIdentifier = "3811AC7A1E7635D000A0C3AD"
+            BuildableName = "RxSwiftPractice.app"
+            BlueprintName = "RxSwiftPractice"
+            ReferencedContainer = "container:RxSwiftPractice.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -79,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2EA280B1BB9B5A200880ED3"
-            BuildableName = "RxSwift.framework"
-            BlueprintName = "RxSwift-tvOS"
-            ReferencedContainer = "container:Rx.xcodeproj">
+            BlueprintIdentifier = "3811AC7A1E7635D000A0C3AD"
+            BuildableName = "RxSwiftPractice.app"
+            BlueprintName = "RxSwiftPractice"
+            ReferencedContainer = "container:RxSwiftPractice.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
