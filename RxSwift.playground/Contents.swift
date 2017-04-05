@@ -8,7 +8,6 @@ import UIKit
 import RxSwift
 import PlaygroundSupport
 
-PlaygroundPage.current.needsIndefiniteExecution = true
 let one = 1
 let two = 2
 let three = 3
@@ -58,8 +57,8 @@ __subscribe:__ イベントの登録
 
 example(of: "subscribe") {
     let observable = Observable.of(one, two, three)
-    observable.subscribe(onNext: { element in
-        print(element)
+    observable.subscribe(onNext: {
+        print($0)
     })
 }
 
@@ -97,6 +96,7 @@ example(of: "never") {
 __range:__ 特定の範囲の整数を元にObservableを生成します
 */
 
+//MARK: - range
 example(of: "range") { 
     let observable = Observable<Int>.range(start: 1, count: 10)
     observable.subscribe(
@@ -112,6 +112,7 @@ example(of: "range") {
 __dispose:__ データバインドの解除
 */
 
+//MARK: - dispose
 example(of: "dispose") {
     let observable = Observable.of("A", "B", "C")
     let subscription = observable.subscribe {
@@ -124,6 +125,7 @@ example(of: "dispose") {
  __DisposeBag:__ データバインドの解除
  */
 
+//MARK: - DisposeBag
 example(of: "DisposeBag") { 
     let disposeBag = DisposeBag()
     Observable.of("A", "B", "C")
@@ -137,6 +139,7 @@ example(of: "DisposeBag") {
 __create:__ 関数からObservableを生成
 */
 
+//MARK: - create
 example(of: "create") { 
     enum CreateError: Error { case anError }
     
@@ -168,6 +171,7 @@ extension Bool {
  __deferred:__
  */
 
+//MARK: - deferred
 example(of: "deferred") { 
     let disposeBag = DisposeBag()
     var flip = false
@@ -189,6 +193,7 @@ example(of: "deferred") {
     }
 }
 
+//MARK: - PublishSubject
 example(of: "PublishSubject") { 
     let subject = PublishSubject<String>()
     subject.onNext("Is anyone listening")
@@ -202,7 +207,7 @@ example(of: "PublishSubject") {
     
     let subscriptionTwo = subject
         .subscribe { event in
-            print("2", $0.element ?? event)
+            print("2", event.element ?? event)
         }
     subject.onNext("3")
     
@@ -226,12 +231,83 @@ example(of: "PublishSubject") {
     subject.onNext("?")
 }
 
+enum MyError: Error { case anError }
 
+func print<T: CustomStringConvertible>(label: String, event: Event<T>) {
+    print(label, event.element ?? event.error ?? event)
+}
 
+//MARK: - BehaviorSubject
+example(of: "BehaviorSubject") { 
+    let subject = BehaviorSubject(value: "Initial value")
+    let disposeBag = DisposeBag()
+    
+    subject.onNext("X")
+    subject.subscribe {
+        print(label: "1", event: $0)
+    }
+    .disposed(by: disposeBag)
+    
+    subject.onError(MyError.anError)
+    
+    subject.subscribe {
+        print(label: "2", event: $0)
+    }
+    .disposed(by: disposeBag)
+}
 
+//MARK: - ReplaySubject
+example(of: "ReplaySubject") { 
+    let subject = ReplaySubject<String>.create(bufferSize: 2)
+    let disposeBag = DisposeBag()
+    
+    subject.onNext("1")
+    subject.onNext("2")
+    subject.onNext("3")
+    
+    subject.subscribe {
+        print(label: "1", event: $0)
+    }
+    .disposed(by: disposeBag)
+    
+    subject.subscribe {
+        print(label: "2", event: $0)
+    }
+    .disposed(by: disposeBag)
+    
+    subject.onNext("4")
+    subject.onError(MyError.anError)
+    subject.dispose()
+    
+    subject.subscribe {
+        print(label: "3", event: $0)
+    }
+    .disposed(by: disposeBag)
+}
 
-
-
+//MARK: - Variable
+example(of: "Variable") {
+    let variable = Variable("Initial value")
+    let disposeBag = DisposeBag()
+    
+    variable.value = "New initial value"
+    
+    variable.asObservable()
+        .subscribe {
+            print(label: "1", event: $0)
+        }
+        .disposed(by: disposeBag)
+    
+    variable.value = "1"
+    
+    variable.asObservable()
+        .subscribe {
+            print(label: "2", event: $0)
+        }
+        .disposed(by: disposeBag)
+    
+    variable.value = "2"
+}
 
 
 
