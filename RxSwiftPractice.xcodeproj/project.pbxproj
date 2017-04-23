@@ -105,6 +105,7 @@
 		384F3A911E8255FB00BC3E87 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		384F3A931E8273B800BC3E87 /* GithubSignupViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel2.swift; sourceTree = "<group>"; };
 		3862FB131E93B4C100679208 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = SOURCE_ROOT; };
+		386FD7C01EA84FB7003721A9 /* RxSwift2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift2.playground; sourceTree = "<group>"; };
 		387693241E79A33200D10F28 /* GitHubSignup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup2ViewController.swift; sourceTree = "<group>"; };
 		387693251E79A33200D10F28 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		387693261E79A33200D10F28 /* GitHubSignup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignup1ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				3862FB131E93B4C100679208 /* RxSwift.playground */,
+				386FD7C01EA84FB7003721A9 /* RxSwift2.playground */,
 				3811ACBA1E76361700A0C3AD /* Sources */,
 				3811ACBB1E76361B00A0C3AD /* Resources */,
 			);
